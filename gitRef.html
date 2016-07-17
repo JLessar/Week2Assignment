@@ -9,7 +9,7 @@
   Revised:   
   -->
  <title>Git Demo</title>
-<p>Hello I am modifiying this web page for a git demo, demonstating a push to GitHub</p>
+
  <script>
 
  </script>
@@ -49,6 +49,19 @@
 <body>
 <div id="frame">
 <h1>Git Cheat Sheet</h1>
+<p>In order to use git, you need to use command prompt or powershell.  I will be using command prompt.</p>
+<img src="graphic/cmdPrompt.png" alt="Command Prompt" style="width:304px;height:228px;">
+<p>On the image, you can see I used c: to change to the c drive, and then cd (change drive) \Program Files (x86)\Ampps\www\CSC245, 
+then cd\ Week2Assignment to go to folder I wanted.</p>
+<p>I then used git Clone https://github.com/JLessar/Week2Assignment.git to copy the repository I previously created at GitHub.
+I was able to get the proper address by copying the yellow highlighted text.</p>
+<img src="graphic/gitHub.png" alt="GitHub Repository" style="width:304px;height:228px;">
+<p>Next I will pull the code in, to make sure I have the latest version, using git pull https://github.com/JLessar/Week2Assignment.git</p>
+<img src="graphic/cmdPromptPull.png" alt="Getting latest version of Git Repository" style="width:304px;height:228px;">
+<p>I will also use <b>git status</b> to see the changes I made.  Unsaved changes appear in red.</p>
+<p>These changes need to be saved using <b>git add .</b>.  Using <b>git status</b> again, we can see the red has changed to green, 
+meaning we are ready to upload them to the repository.</p>
+<img src="graphic/cmdPromptAdd.png" alt="Updating latest version of Git Repository" style="width:304px;height:228px;">
 
 <p><b>git Clone (website/file address)</b>  This command is needed only once to download the file which you will be working on.  
 It will download and set up the files, based on the folder structure in gitHub.</p>
